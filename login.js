@@ -1,4 +1,4 @@
-function myfunction(){
+var myfunction = function() {
 	document.getElementBy("demo").innerHTML = "IVA";
 }
 
@@ -18,10 +18,10 @@ constructor(horsepower, turbo) {
  }
 }
 
-var SportsCar = new SportsCar(500)
-console.log(SportsCar)
+let SportsCarValue = new SportsCar(500)
+console.log(SportsCarValue)
 
-var Prices = [10, 25, 40];
+let prices = [10, 25, 40];
 console.log("initial prices:");
 console.log(prices);
 
@@ -38,4 +38,3 @@ var reduce = function(arr) {
 
 console.log("reduced prices:");
 reduce(prices);
-
