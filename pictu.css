@@ -1,3 +1,19 @@
 h1 {
 	color: blue;
+	background-color: #f2f2f2;
+}
+
+nav {
+	color: #f2f2f2;
+	margin-top: 30px;
+	border-bottom: 3px solid blue;
+	overflow: hidden;
+}
+.ht{
+	color: #fefefe;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	color: skyblue;
 }
