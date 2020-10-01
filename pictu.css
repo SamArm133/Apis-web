@@ -1,19 +1,287 @@
-h1 {
-	color: blue;
-	background-color: #f2f2f2;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-nav {
-	color: #f2f2f2;
-	margin-top: 30px;
-	border-bottom: 3px solid blue;
-	overflow: hidden;
+body {
+	background-color: #000000;
+	color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239a96a1' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+
 }
-.ht{
-	color: #fefefe;
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.conte {
+	width: 90%;
+	margin: auto;
+}
+
+/* css navegation*/
+
+.navegation {
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 20px 0;
+}
+
+.logoo {
+	width: 50px;
+}
+
+/*nav left*/
+
+.nav-main {
+	display: flex;
+}
+
+.nav-main li {
+	padding: 16px;
+}
+
+.nav-main li a:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+.navegation ul.nav-main {
+	flex: 1;
+	margin-left: 20px;
+}
+
+/*conten news*/
+hr {
+	margin: 10px 0;
+}
+.news {
+	background-image: url("imatechno/photolap.jpeg");
+	background-repeat: no-repeat;
+	padding: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	height: 550px;
+}
+
+.boton {
+	cursor: pointer;
 	display: inline-block;
+	border: 0;
+	font-weight: bold;
+	padding: 10px 20px;
+	background-color: #262626;
+	color: #ffffff;
+	font-size: 15px;
+	border: 1px solid #ffffff; 
+	margin: 10px 10px 0 0;
 }
 
-a:hover, a:active {
+.boton:hover {
+		opacity: .7;
+}
+
+.boton h2,
+.boton p {
+	margin-bottom: 10px;
+}
+
+/*news box*/
+.box {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 25px;
+	margin: 10px 0;
+}
+
+.box img {
+	width: 100%;
+	height: 180px;
+}
+
+.box h3{
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.box a {
+	padding: 10px 0;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.box a:hover {
+	text-decoration: underline;
+
+}
+/*banneer*/
+.banner1 {
+	width: 100%;
+	height: 350px;
+	/*background-size: cover;reparar*/
+	background-image: url(./imatechno/titere.jpeg);
+	margin-bottom: 40px;
+}
+
+.banner1 .conten {
+	width: 40%;
+	padding: 90px 0 0 30px;
+	color: #ffffff;
+}
+
+.banner1 p,
+.banner1 h2 {
+	margin: 10px 0 20px;
+}
+/*new box2*/
+.box2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 25px;
+	margin: 10px 0;
+}
+
+.box2 img {
+	width: 100%;
+	height: 180px;
+}
+
+.box2 h3 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.box2 a {
+	padding: 10px 0;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.box2 a:hover {
+	text-decoration: underline;
+}
+
+/*new banner2*/
+.banner2 {
+	width: 100%;
+	height: 350px;
+	background-image: url(./imatechno/seo.jpeg);
+	background-size: cover;
+	margin-bottom: 40px;
+}
+
+.banner2 .conten2 {
+	width: 40%;
+	padding: 90px 0 0 30px;
+	color: #ffffff;
+
+}
+
+.banner2 p,
+.banner2 h2 {
+	margin: 10px 0 20px;
+}
+/*redes sociales*/
+.social {
+	margin: 50px;
+}
+
+.social p {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links a {
+	margin: 0 30px;
+}
+
+.links a i {
+	font-size: 30px;
+}
+/*sociales colors*/
+.links a:hover {
+	color: #0000ff;
+}
+
+#twitter:hover {
 	color: skyblue;
+}
+
+#linkedin:hover {
+	color: yellow;
+}
+
+#instagram:hover {
+	color: #ff3399;
+}
+
+#youtube:hover {
+	color: red;
+}
+
+#github:hover {
+	color: gray;
+}
+
+/*footer links*/
+.footer {
+	background-color: #2f3640;
+	color: #616161;
+	font-size: 12px;
+	padding: 35px 0;
+}
+
+.footercon {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 25px;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.footercon ul {
+	margin: auto;
+}
+
+.footercon ul li {
+	line-height: 2.8;
+}
+
+.footercon a:hover {
+	text-decoration: underline;
+}
+
+/*copyright*/
+.copy {
+	background-color: #2f3640;
+	color: #616161;
+	font-size: 12px;
+	padding: 20px 0;
+	text-align: center;
+	padding-bottom: 20px;
 }
