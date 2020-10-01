@@ -2,7 +2,7 @@ var myfunction = function() {
 	document.getElementBy("demo").innerHTML = "IVA";
 }
 
-alert("wow");
+alert("Breaking News");
 
 class Car {
 	constructor(horsepower){
