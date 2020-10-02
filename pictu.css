@@ -130,6 +130,7 @@ hr {
 	text-decoration: underline;
 
 }
+
 /*banneer*/
 .banner1 {
 	width: 100%;
@@ -149,6 +150,7 @@ hr {
 .banner1 h2 {
 	margin: 10px 0 20px;
 }
+
 /*new box2*/
 .box2 {
 	display: grid;
@@ -199,6 +201,7 @@ hr {
 .banner2 h2 {
 	margin: 10px 0 20px;
 }
+
 /*social networks*/
 .social {
 	margin: 50px;
@@ -223,6 +226,7 @@ hr {
 .links a i {
 	font-size: 30px;
 }
+
 /*sociales colors*/
 .links a:hover {
 	color: #0000ff;
@@ -246,6 +250,10 @@ hr {
 
 #github:hover {
 	color: gray;
+}
+
+#whatsapp:hover {
+	color: #00ff00;
 }
 
 /*footer links*/
